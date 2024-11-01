@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="strona __ds99__'a, umm, nic dodać nic ująć, hala madrid! uwu">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>__DS99__</title>
+</head>
+<!-- Przepraszam bardzo za slaby kod, nie umiem w CSS. Naucze się go lepiej, obiecuje! -->
+<style>
+    @keyframes breathing {
+        0% {
+            scale: 1;
+        }
+        50% {
+           scale: 1.1; 
+        }
+        100% {
+            scale: 1;
+        }
+    }
+    body {
+        background-image: url('stars.png');
+        background-size: 1500px 700px;
+        background-repeat: repeat;
+    }
+    h1#name {
+        color: rgb(231, 231, 231);
+        text-align: center;
+        font-size: 3.5em;
+    }
+    h1#name::selection {
+        color: rgb(0, 206, 86);
+        font-weight: bolder;
+        background-color: none;
+    }
+    h1#name::after {
+        color: rgb(107, 107, 107);
+        font-size: 20px;
+        content: " (a.k.a. DS)";
+        display: inline-block;
+    }
+    img#pfp {
+        border-radius: 40px;
+        animation: breathing 1s ease-out infinite;
+    }
+    img#pfp::selection, img#discord::selection, img#github::selection {
+        background-color: rgba(0, 0, 0, 0);
+    }
+    h4#programminglanguages {
+        color: rgb(0, 243, 203);
+        opacity: 0.45;
+        text-align: center;
+    }
+    span#white {
+        color: rgb(244, 245, 233);
+        font-weight: bolder;
+    }
+    h4#programminglanguages::selection {
+        color: white;
+    }
+    span::selection {
+        color: rgb(0, 235, 125)
+    }
+    /*img#discord {
+        width: 100px;
+        height: 100px;
+        float: left;
+        filter: drop-shadow(2px 2px 10px rgb(255, 224, 224));
+    }
+    h4#discordnickname {
+        color: rgb(255, 255, 255);
+        text-shadow: 2px 2px 10px rgb(0, 185, 31);
+    }
+    h4#discordnickname::selection, h4#githubnickname::selection {
+        color:rgb(207, 207, 207);
+    }
+    h4#githubnickname {
+        color: rgb(255, 255, 255);
+        text-shadow: 2px 2px 10px rgb(0, 185, 31);
+    }
+    img#github {
+       width: 120px;
+       height: 70px;
+       float: left;
+       filter: drop-shadow(2px 2px 10px rgb(255, 224, 224));
+    }*/
+</style>
+<body>
+    <br><br><br><br><br><br><br>
+    <center><img src="() Images Data ()/dev.png" alt="moje pfp" id="pfp"></center> <!-- droga wie jak to zrobić w CSS'ie, dlatego używam <center> 😭 -->
+    <h1 id="name">DS99</h1>
+    <h4 id="programminglanguages">ik: <span id='white'>Python, C++, JavaScript, Lua, Batch, PHP, Kotlin</span></h3>
+    <!--<img src="discord.png" alt="discord logo" id="discord">
+    <br><br><h4 id="discordnickname">__ds99__</h4>
+    <img src="github.png" alt="github logo" id="github">
+    <br><br><h4 id="githubnickname">DS99pr</h4>-->
+    <!-- (sorki za słabego CSS'a ale nienawidzę w tym pisać + co do tego repeata to nie jestem umiejętny w frontend, proszę nie bić 🙏) -->
+</body>
+</html>
